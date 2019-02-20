@@ -5,4 +5,8 @@
 # def do_stuff():
     
 class Character():
-    pass
+    # in python - "dunder init" is the method used for how you define a constructor
+    def __init__(self, new_name):
+        # 'self' is the customary way to refer to the instance being built
+        # in some other languages, they use 'this'
+        self.name = new_name
