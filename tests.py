@@ -11,5 +11,12 @@ print(jon.inventory)
 
 jon.inventory.append("CAT")
 jon.inventory.append("Valayrian steel")
+
+# should print ...
 print(jon.inventory)
+
+# it should print ...
 print(ayra.greet(jon))
+
+# should print without "hello i am.."
+print(ayra.greet())

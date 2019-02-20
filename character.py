@@ -12,5 +12,8 @@ class Character():
         self.name = new_name
         self.avatar = new_avatar
         self.inventory = []
-    def greet(self, person):
-        return "Hello %s, I am %s!" % (person.name, self.name)
+    def greet(self, person=None):
+        if person == None:
+            return "Hello, I am %s!" % (self.name,)
+        else:
+            return "Hello %s, I am %s!" % (person.name, self.name)
