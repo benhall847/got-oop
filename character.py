@@ -17,3 +17,12 @@ class Character():
             return "Hello, I am %s!" % (self.name,)
         else:
             return "Hello %s, I am %s!" % (person.name, self.name)
+
+
+# Hero is a type/kind of Character
+# Hero is a subclass of Character
+# Hero inherits from Character
+# Character is the "super class" of Hero
+# Character is the parent class of Hero
+class Hero(Character):
+    pass
