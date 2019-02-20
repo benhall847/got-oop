@@ -12,3 +12,5 @@ class Character():
         self.name = new_name
         self.avatar = new_avatar
         self.inventory = []
+        self.greet = "You know nothing Jon Snow!"
+        

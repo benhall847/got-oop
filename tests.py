@@ -12,3 +12,4 @@ print(jon.inventory)
 jon.inventory.append("CAT")
 jon.inventory.append("Valayrian steel")
 print(jon.inventory)
+print(jon.greet)git 
